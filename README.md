@@ -16,12 +16,50 @@ Data -> PROCESS -> Information -> PROCESS -> Knowledge -> PROCESS -> Wisdom
         E.g. transfer of funds from one account to another should either complete or not happen at all
 6) Concurrent access by multiple users
 7) Security problems
+
+### SQL (Structured Query Language)
+1) DDL (Data Definition Language)- create, drop, alter, truncate
+2) DML (Data Manipulation Language) - insert, update, delete
+3) DCL (Data Control Language) - grant, revoke
+4) TCL (Transaction Control Language) - commit, rollback, savePoint
+5) DQL (Data Query Language) - select
+
+### Role and duties of DBA
+1) Coordinates all the activities of the database system
+2) The database administrator has a good understanding of the enterprise's information resources and needs.
+3) Schema definition (database structure, table structure, data models, data relationships)
+4) Storage Structure and access method definition
+5) Schema and physical organization modification
+6) Granting user authroity to access the database
+7) Specifying integrity constraints
+8) Acting plans for the users
+9) Monitoring performance and responding to changes in requirements
+10) And more.
    
 ### Database Technologies
 1) Schema
         Logical schema
         Physical schema
 2) Instance
+
+### Advantages of Database
+1) Storage Management
+2) Transaction Management
+3) Security Management
+
+### Data Models
+- A collection of tools for describing
+  . data
+  . data relationships
+  . data semantics
+  . data constraints
+- Entity Relationship Model(ER)
+- Relational model
+- Other models:
+  . object-oriented model
+  . semi-structured data models
+  . Older models : network model and hierarchical model
+
 ```
 alter table comments
 add foreign key (post_id) references posts(id)
