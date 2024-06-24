@@ -1,3 +1,27 @@
+<h1 align="center">Database</h1>
+Data -> PROCESS -> Information -> PROCESS -> Knowledge -> PROCESS -> Wisdom
+
+### Purpose of Database Systems
+1) Data redundancy and inconsistency
+        Multiple file formats, duplication of information in different files
+2) Difficulty in accessing data
+        Need to write a new program to carry out each new task
+3) Data isolation
+        multiple files and formats
+4) Integrity problems
+        Integrity constraints (e.g. account balance > 0) become part of program code
+        Hard to add new constraints or change existing ones
+        Drawbacks of using file systems
+5) Atomicity of updates
+        E.g. transfer of funds from one account to another should either complete or not happen at all
+6) Concurrent access by multiple users
+7) Security problems
+   
+### Database Technologies
+1) Schema
+        Logical schema
+        Physical schema
+2) Instance
 ```
 alter table comments
 add foreign key (post_id) references posts(id)
